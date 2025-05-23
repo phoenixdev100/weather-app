@@ -2,19 +2,19 @@
 
 # ☀️ Weather App
 
-</div>
-
-<div align="center">
-
 ![Weather App Banner](https://img.shields.io/badge/Weather%20App-Real--time%20Forecasts-blue?style=for-the-badge&logo=cloud)
 
 **A beautiful, responsive weather application with real-time data and a modern UI**
 
-[Features](#key-features) • [Demo](#live-demo) • [Setup](#quick-setup) • [Usage](#how-to-use) • [Technologies](#technologies) • [License](#license)
+[**Features**](#key-features) • [**Demo**](#live-demo) • [**Setup**](#quick-setup) • [**Usage**](#how-to-use) • [**Technologies**](#technologies) • [**License**](#license)
 
 </div>
 
-## 🌟 Key Features
+<div align="center">
+
+## 🌟 **Key Features**
+
+</div>
 
 - 🔍 **Search by City** - Get weather for any location worldwide
 - 📍 **Geolocation Support** - One-click access to your local weather
@@ -25,13 +25,21 @@
 - 📱 **Fully Responsive** - Perfect on desktop, tablet, and mobile
 - ✨ **Glass-morphism UI** - Modern, elegant interface with visual effects
 
-## 🖥️ Live Demo
+<div align="center">
 
-Try the app here: [Weather App Live Demo](https://w-app-100.netlify.app/)
+## 🖥️ **Live Demo**
+
+Try the app here: [**Weather App Live Demo**](https://w-app-100.netlify.app/)
 
 ![App Screenshot](https://i.postimg.cc/k52sxW30/image.png)
 
-## ⚡ Quick Setup
+</div>
+
+<div align="center">
+
+## ⚡ **Quick Setup**
+
+</div>
 
 1. **Ready to Use**: The app includes a free OpenWeatherMap API key
 2. **Custom API Key** (Optional):
@@ -39,7 +47,13 @@ Try the app here: [Weather App Live Demo](https://w-app-100.netlify.app/)
    - Open `js/script.js` and replace the existing API key
 3. **Launch**: Open `index.html` in any modern browser
 
-## 📱 How to Use
+<div align="center">
+
+## 📱 **How to Use**
+
+</div>
+
+<div align="center">
 
 | Feature | Instructions |
 |---------|-------------|
@@ -48,7 +62,13 @@ Try the app here: [Weather App Live Demo](https://w-app-100.netlify.app/)
 | **Temperature Units** | Toggle between °C and °F with the buttons |
 | **Forecast** | Scroll horizontally to view the 5-day forecast |
 
-## 🛠️ Technologies
+</div>
+
+<div align="center">
+
+## 🛠️ **Technologies**
+
+</div>
 
 <div align="center">
 
@@ -64,7 +84,11 @@ Try the app here: [Weather App Live Demo](https://w-app-100.netlify.app/)
 - **Design**: Glass-morphism UI, Font Awesome icons, Google Fonts
 - **Features**: Async/Await, Real-time data fetching, Responsive design
 
-## 🌈 Technical Highlights
+<div align="center">
+
+## 🌈 **Technical Highlights**
+
+</div>
 
 - **Real-time Data Integration**: Fetches and processes live weather data
 - **Browser Geolocation**: Securely accesses user location when permitted
@@ -72,7 +96,12 @@ Try the app here: [Weather App Live Demo](https://w-app-100.netlify.app/)
 - **Modern UI Effects**: Glass-morphism with blur effects and transparency
 - **Dynamic Weather Visualization**: Icons and backgrounds change based on conditions
 
-## 📋 Future Enhancements
+
+<div align="center">
+
+## 📋 **Future Enhancements**
+
+</div>
 
 - [ ] Dark/Light mode toggle
 - [ ] Weather alerts and notifications
@@ -80,14 +109,21 @@ Try the app here: [Weather App Live Demo](https://w-app-100.netlify.app/)
 - [ ] Weather maps integration
 - [ ] Air quality index
 
-## 📄 License
+
+<div align="center">
+
+## 📄 **License**
 
 This project is open source and available under the [MIT License](LICENSE).
 
----
+</div>
 
 <div align="center">
-Made with ❤️ by Deepak
 
-⭐ Star this repo if you found it useful! ⭐
+---
+
+**Made with ❤️ by Deepak**
+
+**⭐ Star this repo if you found it useful! ⭐**
+
 </div>
