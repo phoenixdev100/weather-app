@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="assets/weather-background.mp4" type="video/mp4">
+            <!-- Fallback message if video doesn't load -->
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <i class="fas fa-location-dot location-icon" id="get-location"></i>
+                <input type="text" placeholder="Enter city name" id="search-input">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            
+            <div class="unit-toggle">
+                <button id="celsius" class="active">°C</button>
+                <button id="fahrenheit">°F</button>
+            </div>
+        </div>
+        
+        <div class="weather-body">
+            <div class="main-weather">
+                <div class="location-details">
+                    <div class="city" id="city">New York, US</div>
+                    <div class="date" id="date">Thursday, May 22, 2025</div>
+                </div>
+                
+                <div class="current-weather">
+                    <div class="weather-icon" id="weather-icon">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <div class="temperature-container">
+                        <div class="temperature" id="temperature">24°</div>
+                        <div class="feels-like">Feels like: <span id="feels-like">22°</span></div>
+                    </div>
+                    <div class="description" id="description">Partly Cloudy</div>
+                </div>
+            </div>
+            
+            <div class="weather-details-container">
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <i class="fas fa-water"></i>
+                        <div class="text">
+                            <span id="humidity">45%</span>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-wind"></i>
+                        <div class="text">
+                            <span id="wind-speed">12 km/h</span>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-compress-alt"></i>
+                        <div class="text">
+                            <span id="pressure">1012 hPa</span>
+                            <p>Pressure</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-eye"></i>
+                        <div class="text">
+                            <span id="visibility">10 km</span>
+                            <p>Visibility</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sun-details">
+                    <div class="sun-item">
+                        <i class="fas fa-sun"></i>
+                        <div class="text">
+                            <span id="sunrise">06:05 AM</span>
+                            <p>Sunrise</p>
+                        </div>
+                    </div>
+                    <div class="sun-item">
+                        <i class="fas fa-moon"></i>
+                        <div class="text">
+                            <span id="sunset">07:32 PM</span>
+                            <p>Sunset</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="forecast-container">
+            <h3>5-Day Forecast</h3>
+            <div class="forecast" id="forecast">
+                <!-- Forecast items will be added here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
